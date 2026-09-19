@@ -1,0 +1,3 @@
+# Paquetes desactivados con `pm disable-user --user 0`
+# Formato: <paquete>  # qué era  (fecha)
+# Se va rellenando tanda a tanda. No se ha desactivado nada todavía.

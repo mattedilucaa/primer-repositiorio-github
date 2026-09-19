@@ -1,0 +1,16 @@
+# NUNCA desactivar estos paquetes (dejan la tele inservible)
+# Basado en TCL / TopHouse (Google TV). Si tu marca es otra, busca los
+# equivalentes antes de tocar nada y pregunta si tienes dudas.
+
+com.tcl.suspension                              # Menu "Fuentes/Entradas" del mando
+com.tcl.tv                                      # Entrada HDMI / antena
+com.tcl.tvinput                                 # Entrada HDMI / antena
+com.google.android.tv.remote.service            # Mando a distancia
+com.tcl.tcl_bt_rcu_service                      # Mando a distancia (bluetooth)
+com.tcl.autopair                                # Emparejamiento del mando
+com.google.android.gms                          # Servicios de Google Play
+com.google.android.gsf                          # Google Services Framework
+com.android.vending                             # Play Store
+com.android.location.fused                      # Desactivarlo provoca bootloop
+com.google.android.apps.tv.launcherx            # Pantalla de inicio (Google TV Home)
+# Cualquier paquete que contenga ".inputmethod." -> teclado en pantalla
